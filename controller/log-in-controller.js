@@ -1,5 +1,5 @@
 'use strict';
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcrypt-nodejs');
 
 /** Διαλέξτε το κατάλληλο μοντέλο */
 const model = require('../model/tennis-club-model-mysql.js');
